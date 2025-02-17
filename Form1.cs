@@ -20,7 +20,7 @@ namespace Calculator
         private void btCong_Click(object sender, EventArgs e)
         {
             int a, b, tong;
-            if (txta.Text != String.Empty)
+            if (txta.Text != String.Empty || txtb.Text != String.Empty)
             {
                 a = int.Parse(txta.Text);
                 b = int.Parse(txtb.Text);
