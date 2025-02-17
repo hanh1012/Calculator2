@@ -41,17 +41,18 @@
             // btCong
             // 
             this.btCong.Location = new System.Drawing.Point(507, 133);
-            this.btCong.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btCong.Margin = new System.Windows.Forms.Padding(5);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(84, 53);
             this.btCong.TabIndex = 0;
             this.btCong.Text = "+";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // txta
             // 
             this.txta.Location = new System.Drawing.Point(292, 77);
-            this.txta.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txta.Margin = new System.Windows.Forms.Padding(5);
             this.txta.Name = "txta";
             this.txta.Size = new System.Drawing.Size(172, 34);
             this.txta.TabIndex = 1;
@@ -127,7 +128,7 @@
             this.Controls.Add(this.btCong);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.ForeColor = System.Drawing.Color.Blue;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Tính toán";
             this.ResumeLayout(false);
